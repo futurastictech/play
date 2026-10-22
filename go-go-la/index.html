@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Go Go La</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #05060c; overflow: hidden; touch-action: none; }
+  #unity-canvas { position: fixed; inset: 0; width: 100%; height: 100%; display: block; background: #05060c; outline: none; }
+  #boot { position: fixed; inset: 0; display: grid; place-content: center; gap: 14px; justify-items: center;
+          font: 500 12px/1 "Geist Mono", ui-monospace, Consolas, monospace; letter-spacing: .12em; text-transform: uppercase; color: #c6ff3d; }
+  #bar { width: min(60vw, 260px); height: 3px; background: rgba(198,255,61,.18); border-radius: 3px; overflow: hidden; }
+  #bar i { display: block; height: 100%; width: 0; background: #c6ff3d; transition: width .2s; }
+  #boot.err { color: #ff8a7a; text-transform: none; letter-spacing: 0; padding: 0 24px; text-align: center; line-height: 1.5; }
+</style>
+</head>
+<body>
+<canvas id="unity-canvas" tabindex="-1"></canvas>
+<div id="boot"><span id="msg">Go Go La yükleniyor</span><div id="bar"><i></i></div></div>
+<script src="Build/go-go-la.loader.js"></script>
+<script>
+  // Full-frame Unity loader for the studio site's player.
+  var boot = document.getElementById("boot"), bar = document.querySelector("#bar i");
+  // GitHub refuses files over 100 MB, so a large data file ships in parts and is
+  // joined here into one blob before Unity reads it. PARTS = 1 means one file.
+  var PARTS = 2, DATA = "Build/go-go-la.data.unityweb";
+  function loadData() {
+    if (PARTS < 2) return Promise.resolve(DATA);
+    var done = 0, list = [];
+    for (var i = 0; i < PARTS; i++) list.push(DATA + ".part" + i);
+    return Promise.all(list.map(function (u) {
+      return fetch(u).then(function (r) { if (!r.ok) throw new Error(u + " " + r.status); return r.blob(); })
+        .then(function (b) { done++; bar.style.width = Math.round(done / PARTS * 60) + "%"; return b; });
+    })).then(function (blobs) { return URL.createObjectURL(new Blob(blobs)); });
+  }
+  loadData().then(function (dataUrl) { return createUnityInstance(document.getElementById("unity-canvas"), {
+    dataUrl: dataUrl,
+    frameworkUrl: "Build/go-go-la.framework.js.unityweb",
+    codeUrl: "Build/go-go-la.wasm.unityweb",
+    streamingAssetsUrl: "StreamingAssets",
+    companyName: "Futurastic", productName: "Go Go La", productVersion: "1.0.0",
+    devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2)
+  }, function (p) { bar.style.width = Math.round((PARTS < 2 ? 0 : 60) + p * (PARTS < 2 ? 100 : 40)) + "%"; }); })
+  .then(function (unity) { window.unityInstance = unity; boot.remove(); document.getElementById("unity-canvas").focus(); })
+  .catch(function (e) { boot.className = "err"; boot.textContent = "Oyun bu tarayıcıda açılamadı. " + e; });
+</script>
+</body>
+</html>
