@@ -1,0 +1,2189 @@
+{
+  "ikameler": [
+    {
+      "kapsam": "tatli",
+      "gerekli": "su",
+      "yerine": "sut",
+      "carpan": 1.15,
+      "etiket": "premium",
+      "not": "Süt, su yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "kapsam": "ekmek",
+      "gerekli": "su",
+      "yerine": "sut",
+      "carpan": 1.1,
+      "etiket": "premium",
+      "not": "Süt, su yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "kapsam": "corba",
+      "gerekli": "su",
+      "yerine": "sut",
+      "carpan": 1.1,
+      "etiket": "premium",
+      "not": "Süt, su yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "kapsam": "tatli",
+      "gerekli": "un",
+      "yerine": "irmik",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "İrmik, un görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "corba",
+      "gerekli": "un",
+      "yerine": "irmik",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "İrmik, un görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "ekmek",
+      "gerekli": "un",
+      "yerine": "yufka",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Yufka, un görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "pizza",
+      "gerekli": "un",
+      "yerine": "yufka",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Yufka, un görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "et",
+      "gerekli": "un",
+      "yerine": "irmik",
+      "carpan": 1,
+      "etiket": "esdeger",
+      "not": "İrmik, un yerine benzer işlev görerek tarifin dengesini korur."
+    },
+    {
+      "kapsam": "tatli",
+      "gerekli": "seker",
+      "yerine": "bal",
+      "carpan": 1.15,
+      "etiket": "premium",
+      "not": "Bal, şeker yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "kapsam": "tatli",
+      "gerekli": "seker",
+      "yerine": "muz",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Muz, şeker görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tatli",
+      "gerekli": "seker",
+      "yerine": "elma",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Elma, şeker görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "et",
+      "gerekli": "seker",
+      "yerine": "bal",
+      "carpan": 1,
+      "etiket": "esdeger",
+      "not": "Bal, şeker yerine benzer işlev görerek tarifin dengesini korur."
+    },
+    {
+      "kapsam": "tatli",
+      "gerekli": "sut",
+      "yerine": "su",
+      "carpan": 0.5,
+      "etiket": "zayif",
+      "not": "Su, süt görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "makarna",
+      "gerekli": "sut",
+      "yerine": "su",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Su, süt görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "pizza",
+      "gerekli": "sut",
+      "yerine": "su",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Su, süt görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "corba",
+      "gerekli": "sut",
+      "yerine": "su",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Su, süt görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "kahvalti",
+      "gerekli": "sut",
+      "yerine": "su",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Su, süt görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "patates",
+      "gerekli": "sut",
+      "yerine": "su",
+      "carpan": 0.5,
+      "etiket": "zayif",
+      "not": "Su, süt görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tatli",
+      "gerekli": "yumurta",
+      "yerine": "muz",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Muz, yumurta görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tatli",
+      "gerekli": "yumurta",
+      "yerine": "elma",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Elma, yumurta görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "makarna",
+      "gerekli": "yumurta",
+      "yerine": "su",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Su, yumurta görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "et",
+      "gerekli": "yumurta",
+      "yerine": "sut",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Süt, yumurta görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tuzlu",
+      "gerekli": "tereyagi",
+      "yerine": "zeytinyagi",
+      "carpan": 1,
+      "etiket": "esdeger",
+      "not": "Zeytinyağı, tereyağı yerine benzer işlev görerek tarifin dengesini korur."
+    },
+    {
+      "kapsam": "tatli",
+      "gerekli": "tereyagi",
+      "yerine": "zeytinyagi",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Zeytinyağı, tereyağı görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tatli",
+      "gerekli": "tereyagi",
+      "yerine": "muz",
+      "carpan": 0.5,
+      "etiket": "zayif",
+      "not": "Muz, tereyağı görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "patates",
+      "gerekli": "tereyagi",
+      "yerine": "sut",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Süt, tereyağı görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "corba",
+      "gerekli": "tereyagi",
+      "yerine": "sut",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Süt, tereyağı görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tuzlu",
+      "gerekli": "zeytinyagi",
+      "yerine": "tereyagi",
+      "carpan": 1,
+      "etiket": "esdeger",
+      "not": "Tereyağı, zeytinyağı yerine benzer işlev görerek tarifin dengesini korur."
+    },
+    {
+      "kapsam": "tavuk",
+      "gerekli": "zeytinyagi",
+      "yerine": "tereyagi",
+      "carpan": 1.1,
+      "etiket": "premium",
+      "not": "Tereyağı, zeytinyağı yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "kapsam": "pilav",
+      "gerekli": "zeytinyagi",
+      "yerine": "tereyagi",
+      "carpan": 1.1,
+      "etiket": "premium",
+      "not": "Tereyağı, zeytinyağı yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "kapsam": "patates",
+      "gerekli": "zeytinyagi",
+      "yerine": "tereyagi",
+      "carpan": 1.1,
+      "etiket": "premium",
+      "not": "Tereyağı, zeytinyağı yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "kapsam": "makarna",
+      "gerekli": "domates",
+      "yerine": "salca",
+      "carpan": 1.1,
+      "etiket": "premium",
+      "not": "Salça, domates yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "kapsam": "pizza",
+      "gerekli": "domates",
+      "yerine": "salca",
+      "carpan": 1.1,
+      "etiket": "premium",
+      "not": "Salça, domates yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "kapsam": "burger",
+      "gerekli": "domates",
+      "yerine": "salca",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Salça, domates görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "kahvalti",
+      "gerekli": "domates",
+      "yerine": "salca",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Salça, domates görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "corba",
+      "gerekli": "domates",
+      "yerine": "salca",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Salça, domates görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "ekmek",
+      "gerekli": "domates",
+      "yerine": "salca",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Salça, domates görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "et",
+      "gerekli": "sogan",
+      "yerine": "sarimsak",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Sarımsak, soğan görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "burger",
+      "gerekli": "sogan",
+      "yerine": "sarimsak",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Sarımsak, soğan görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "pizza",
+      "gerekli": "sogan",
+      "yerine": "sarimsak",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Sarımsak, soğan görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "makarna",
+      "gerekli": "sogan",
+      "yerine": "sarimsak",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Sarımsak, soğan görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "corba",
+      "gerekli": "sogan",
+      "yerine": "sarimsak",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Sarımsak, soğan görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "et",
+      "gerekli": "sarimsak",
+      "yerine": "sogan",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Soğan, sarımsak görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tavuk",
+      "gerekli": "sarimsak",
+      "yerine": "sogan",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Soğan, sarımsak görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "makarna",
+      "gerekli": "sarimsak",
+      "yerine": "sogan",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Soğan, sarımsak görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "pizza",
+      "gerekli": "sarimsak",
+      "yerine": "sogan",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Soğan, sarımsak görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "pilav",
+      "gerekli": "sarimsak",
+      "yerine": "sogan",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Soğan, sarımsak görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "ekmek",
+      "gerekli": "sarimsak",
+      "yerine": "sogan",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Soğan, sarımsak görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "et",
+      "gerekli": "kiyma",
+      "yerine": "biftek",
+      "carpan": 1.15,
+      "etiket": "premium",
+      "not": "Biftek, kıyma yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "kapsam": "et",
+      "gerekli": "kiyma",
+      "yerine": "sucuk",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Sucuk, kıyma görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "burger",
+      "gerekli": "kiyma",
+      "yerine": "biftek",
+      "carpan": 1.2,
+      "etiket": "premium",
+      "not": "Biftek, kıyma yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "kapsam": "burger",
+      "gerekli": "kiyma",
+      "yerine": "sucuk",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Sucuk, kıyma görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "pizza",
+      "gerekli": "kiyma",
+      "yerine": "sucuk",
+      "carpan": 1,
+      "etiket": "esdeger",
+      "not": "Sucuk, kıyma yerine benzer işlev görerek tarifin dengesini korur."
+    },
+    {
+      "kapsam": "makarna",
+      "gerekli": "kiyma",
+      "yerine": "biftek",
+      "carpan": 1.1,
+      "etiket": "premium",
+      "not": "Biftek, kıyma yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "kapsam": "makarna",
+      "gerekli": "kiyma",
+      "yerine": "sucuk",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Sucuk, kıyma görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tavuk",
+      "gerekli": "tavuk_eti",
+      "yerine": "biftek",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Biftek, tavuk eti görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tavuk",
+      "gerekli": "tavuk_eti",
+      "yerine": "balik",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Balık, tavuk eti görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "pizza",
+      "gerekli": "tavuk_eti",
+      "yerine": "sucuk",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Sucuk, tavuk eti görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "makarna",
+      "gerekli": "tavuk_eti",
+      "yerine": "somon",
+      "carpan": 1.1,
+      "etiket": "premium",
+      "not": "Somon, tavuk eti yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "kapsam": "pilav",
+      "gerekli": "tavuk_eti",
+      "yerine": "ciger",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Ciğer, tavuk eti görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "corba",
+      "gerekli": "tavuk_eti",
+      "yerine": "balik",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Balık, tavuk eti görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "patates",
+      "gerekli": "patates",
+      "yerine": "kabak",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Kabak, patates görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "corba",
+      "gerekli": "patates",
+      "yerine": "nohut",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Nohut, patates görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "et",
+      "gerekli": "patates",
+      "yerine": "bulgur",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Bulgur, patates görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "kahvalti",
+      "gerekli": "patates",
+      "yerine": "kabak",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Kabak, patates görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "burger",
+      "gerekli": "patates",
+      "yerine": "kabak",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Kabak, patates görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "pilav",
+      "gerekli": "havuc",
+      "yerine": "bezelye",
+      "carpan": 1,
+      "etiket": "esdeger",
+      "not": "Bezelye, havuç yerine benzer işlev görerek tarifin dengesini korur."
+    },
+    {
+      "kapsam": "corba",
+      "gerekli": "havuc",
+      "yerine": "kabak",
+      "carpan": 1,
+      "etiket": "esdeger",
+      "not": "Kabak, havuç yerine benzer işlev görerek tarifin dengesini korur."
+    },
+    {
+      "kapsam": "et",
+      "gerekli": "havuc",
+      "yerine": "biber",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Biber, havuç görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "pilav",
+      "gerekli": "pirinc",
+      "yerine": "bulgur",
+      "carpan": 1,
+      "etiket": "esdeger",
+      "not": "Bulgur, pirinç yerine benzer işlev görerek tarifin dengesini korur."
+    },
+    {
+      "kapsam": "et",
+      "gerekli": "pirinc",
+      "yerine": "bulgur",
+      "carpan": 1,
+      "etiket": "esdeger",
+      "not": "Bulgur, pirinç yerine benzer işlev görerek tarifin dengesini korur."
+    },
+    {
+      "kapsam": "tavuk",
+      "gerekli": "pirinc",
+      "yerine": "bulgur",
+      "carpan": 1,
+      "etiket": "esdeger",
+      "not": "Bulgur, pirinç yerine benzer işlev görerek tarifin dengesini korur."
+    },
+    {
+      "kapsam": "tatli",
+      "gerekli": "kakao",
+      "yerine": "tarcin",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Tarçın, kakao görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tatli",
+      "gerekli": "kakao",
+      "yerine": "cilek",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Çilek, kakao görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tatli",
+      "gerekli": "kakao",
+      "yerine": "muz",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Muz, kakao görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tatli",
+      "gerekli": "limon",
+      "yerine": "portakal",
+      "carpan": 1,
+      "etiket": "esdeger",
+      "not": "Portakal, limon yerine benzer işlev görerek tarifin dengesini korur."
+    },
+    {
+      "kapsam": "tuzlu",
+      "gerekli": "limon",
+      "yerine": "portakal",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Portakal, limon görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tuzlu",
+      "gerekli": "limon",
+      "yerine": "domates",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Domates, limon görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tatli",
+      "gerekli": "limon",
+      "yerine": "cilek",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Çilek, limon görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "makarna",
+      "gerekli": "mantar",
+      "yerine": "patlican",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Patlıcan, mantar görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "pizza",
+      "gerekli": "mantar",
+      "yerine": "patlican",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Patlıcan, mantar görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "corba",
+      "gerekli": "mantar",
+      "yerine": "kabak",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Kabak, mantar görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "et",
+      "gerekli": "mantar",
+      "yerine": "patlican",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Patlıcan, mantar görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tavuk",
+      "gerekli": "mantar",
+      "yerine": "kabak",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Kabak, mantar görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "pilav",
+      "gerekli": "mantar",
+      "yerine": "bezelye",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Bezelye, mantar görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tuzlu",
+      "gerekli": "biber",
+      "yerine": "pulbiber",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Pul biber, biber görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tuzlu",
+      "gerekli": "biber",
+      "yerine": "karabiber",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Karabiber, biber görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "pilav",
+      "gerekli": "biber",
+      "yerine": "bezelye",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Bezelye, biber görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "kahvalti",
+      "gerekli": "biber",
+      "yerine": "domates",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Domates, biber görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "pizza",
+      "gerekli": "biber",
+      "yerine": "salca",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Salça, biber görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "kapsam": "tavuk",
+      "gerekli": "biber",
+      "yerine": "kekik",
+      "carpan": 0.5,
+      "etiket": "zayif",
+      "not": "Kekik, biber görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    }
+  ],
+  "yemek_ikameleri": [
+    {
+      "yemek": "limonlu_parfe",
+      "gerekli": "sut",
+      "yerine": "su",
+      "carpan": 0.5,
+      "etiket": "zayif",
+      "not": "Su, süt görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "limonlu_parfe",
+      "gerekli": "seker",
+      "yerine": "bal",
+      "carpan": 1.2,
+      "etiket": "premium",
+      "not": "Bal, şeker yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "yemek": "kizarmis_patates_cubuk",
+      "gerekli": "patates",
+      "yerine": "kabak",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Kabak, patates görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "cirpilmis_yumurta",
+      "gerekli": "sut",
+      "yerine": "su",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Su, süt görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "sade_ekmek",
+      "gerekli": "un",
+      "yerine": "irmik",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "İrmik, un görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "pismis_kofte",
+      "gerekli": "kiyma",
+      "yerine": "biftek",
+      "carpan": 1.15,
+      "etiket": "premium",
+      "not": "Biftek, kıyma yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "yemek": "pilav",
+      "gerekli": "pirinc",
+      "yerine": "bulgur",
+      "carpan": 1,
+      "etiket": "esdeger",
+      "not": "Bulgur, pirinç yerine benzer işlev görerek tarifin dengesini korur."
+    },
+    {
+      "yemek": "omlet",
+      "gerekli": "limon",
+      "yerine": "portakal",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Portakal, limon görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "kremali_patates_puresi",
+      "gerekli": "sut",
+      "yerine": "su",
+      "carpan": 0.5,
+      "etiket": "zayif",
+      "not": "Su, süt görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "tavuklu_pilav_tabani",
+      "gerekli": "tavuk_eti",
+      "yerine": "ciger",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Ciğer, tavuk eti görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "truffle_stil_mantarli_makarna",
+      "gerekli": "mantar",
+      "yerine": "patlican",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Patlıcan, mantar görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "tavuklu_barbeku_pizza",
+      "gerekli": "tavuk_eti",
+      "yerine": "sucuk",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Sucuk, tavuk eti görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "isvec_koftesi",
+      "gerekli": "havuc",
+      "yerine": "bezelye",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Bezelye, havuç görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "kremali_mantar_corbasi",
+      "gerekli": "mantar",
+      "yerine": "kabak",
+      "carpan": 0.7,
+      "etiket": "zayif",
+      "not": "Kabak, mantar görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "saray_domates_corbasi",
+      "gerekli": "domates",
+      "yerine": "salca",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Salça, domates görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "acili_kofte_tabagi",
+      "gerekli": "biber",
+      "yerine": "pulbiber",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Pul biber, biber görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "menemen_harci",
+      "gerekli": "sut",
+      "yerine": "su",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "Su, süt görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "kiymali_borek_dilimi",
+      "gerekli": "un",
+      "yerine": "yufka",
+      "carpan": 1.1,
+      "etiket": "premium",
+      "not": "Yufka, un yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "yemek": "limonlu_gurme_tart",
+      "gerekli": "limon",
+      "yerine": "portakal",
+      "carpan": 1,
+      "etiket": "esdeger",
+      "not": "Portakal, limon yerine benzer işlev görerek tarifin dengesini korur."
+    },
+    {
+      "yemek": "karamelli_trilece",
+      "gerekli": "su",
+      "yerine": "sut",
+      "carpan": 1.15,
+      "etiket": "premium",
+      "not": "Süt, su yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "yemek": "citir_tavuk_sepeti",
+      "gerekli": "un",
+      "yerine": "irmik",
+      "carpan": 0.8,
+      "etiket": "zayif",
+      "not": "İrmik, un görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "klasik_margarita_pizza",
+      "gerekli": "domates",
+      "yerine": "salca",
+      "carpan": 1.1,
+      "etiket": "premium",
+      "not": "Salça, domates yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    },
+    {
+      "yemek": "cikolatali_krema_kup",
+      "gerekli": "kakao",
+      "yerine": "tarcin",
+      "carpan": 0.6,
+      "etiket": "zayif",
+      "not": "Tarçın, kakao görevini kısmen karşılar ancak özgün tat veya dokuyu zayıflatır."
+    },
+    {
+      "yemek": "sefin_ozel_karmasik_tatlisi",
+      "gerekli": "seker",
+      "yerine": "bal",
+      "carpan": 1.15,
+      "etiket": "premium",
+      "not": "Bal, şeker yerine daha yoğun aroma ve daha zengin bir doku sağlar."
+    }
+  ],
+  "uyumlu": {
+    "makarna": [
+      "patlican",
+      "kabak",
+      "bezelye",
+      "biftek",
+      "sucuk",
+      "balik",
+      "hamsi",
+      "somon",
+      "karides",
+      "midye",
+      "kalamar",
+      "mercimek",
+      "nohut",
+      "irmik",
+      "salca",
+      "nane",
+      "karabiber",
+      "pulbiber",
+      "kekik"
+    ],
+    "pizza": [
+      "patlican",
+      "kabak",
+      "bezelye",
+      "biftek",
+      "sucuk",
+      "balik",
+      "hamsi",
+      "somon",
+      "karides",
+      "midye",
+      "kalamar",
+      "nohut",
+      "yufka",
+      "salca",
+      "nane",
+      "karabiber",
+      "pulbiber",
+      "kimyon",
+      "kekik"
+    ],
+    "burger": [
+      "patlican",
+      "salatalik",
+      "marul",
+      "kabak",
+      "bezelye",
+      "elma",
+      "biftek",
+      "sucuk",
+      "balik",
+      "hamsi",
+      "somon",
+      "karides",
+      "kalamar",
+      "bulgur",
+      "mercimek",
+      "nohut",
+      "fasulye",
+      "yufka",
+      "salca",
+      "bal",
+      "nane",
+      "karabiber",
+      "pulbiber",
+      "kimyon",
+      "kekik"
+    ],
+    "pilav": [
+      "patlican",
+      "kabak",
+      "bezelye",
+      "elma",
+      "portakal",
+      "biftek",
+      "ciger",
+      "sucuk",
+      "balik",
+      "hamsi",
+      "somon",
+      "karides",
+      "midye",
+      "kalamar",
+      "bulgur",
+      "mercimek",
+      "nohut",
+      "fasulye",
+      "salca",
+      "bal",
+      "nane",
+      "karabiber",
+      "pulbiber",
+      "kimyon",
+      "tarcin",
+      "kekik"
+    ],
+    "corba": [
+      "patlican",
+      "salatalik",
+      "marul",
+      "kabak",
+      "bezelye",
+      "elma",
+      "portakal",
+      "biftek",
+      "ciger",
+      "sucuk",
+      "balik",
+      "hamsi",
+      "somon",
+      "karides",
+      "midye",
+      "kalamar",
+      "bulgur",
+      "mercimek",
+      "nohut",
+      "fasulye",
+      "irmik",
+      "salca",
+      "bal",
+      "nane",
+      "karabiber",
+      "pulbiber",
+      "kimyon",
+      "tarcin",
+      "kekik"
+    ],
+    "et": [
+      "patlican",
+      "salatalik",
+      "marul",
+      "kabak",
+      "bezelye",
+      "elma",
+      "portakal",
+      "biftek",
+      "ciger",
+      "sucuk",
+      "balik",
+      "karides",
+      "bulgur",
+      "mercimek",
+      "nohut",
+      "fasulye",
+      "irmik",
+      "yufka",
+      "salca",
+      "bal",
+      "nane",
+      "karabiber",
+      "pulbiber",
+      "kimyon",
+      "tarcin",
+      "kekik"
+    ],
+    "tavuk": [
+      "patlican",
+      "salatalik",
+      "marul",
+      "kabak",
+      "bezelye",
+      "elma",
+      "portakal",
+      "biftek",
+      "ciger",
+      "sucuk",
+      "balik",
+      "somon",
+      "karides",
+      "bulgur",
+      "mercimek",
+      "nohut",
+      "fasulye",
+      "irmik",
+      "yufka",
+      "salca",
+      "bal",
+      "nane",
+      "karabiber",
+      "pulbiber",
+      "kimyon",
+      "tarcin",
+      "kekik"
+    ],
+    "kahvalti": [
+      "patlican",
+      "salatalik",
+      "marul",
+      "kabak",
+      "bezelye",
+      "elma",
+      "cilek",
+      "portakal",
+      "muz",
+      "biftek",
+      "sucuk",
+      "balik",
+      "hamsi",
+      "somon",
+      "karides",
+      "nohut",
+      "fasulye",
+      "irmik",
+      "yufka",
+      "salca",
+      "bal",
+      "nane",
+      "karabiber",
+      "pulbiber",
+      "kimyon",
+      "tarcin",
+      "kekik"
+    ],
+    "tatli": [
+      "kabak",
+      "elma",
+      "cilek",
+      "portakal",
+      "muz",
+      "nohut",
+      "fasulye",
+      "irmik",
+      "yufka",
+      "bal",
+      "nane",
+      "karabiber",
+      "tarcin"
+    ],
+    "ekmek": [
+      "patlican",
+      "salatalik",
+      "marul",
+      "kabak",
+      "elma",
+      "cilek",
+      "portakal",
+      "muz",
+      "biftek",
+      "ciger",
+      "sucuk",
+      "balik",
+      "hamsi",
+      "somon",
+      "karides",
+      "midye",
+      "kalamar",
+      "bulgur",
+      "nohut",
+      "fasulye",
+      "irmik",
+      "yufka",
+      "salca",
+      "bal",
+      "nane",
+      "karabiber",
+      "pulbiber",
+      "kimyon",
+      "tarcin",
+      "kekik"
+    ],
+    "patates": [
+      "patlican",
+      "salatalik",
+      "marul",
+      "kabak",
+      "bezelye",
+      "elma",
+      "biftek",
+      "ciger",
+      "sucuk",
+      "balik",
+      "hamsi",
+      "somon",
+      "karides",
+      "midye",
+      "kalamar",
+      "bulgur",
+      "mercimek",
+      "nohut",
+      "fasulye",
+      "irmik",
+      "yufka",
+      "salca",
+      "bal",
+      "nane",
+      "karabiber",
+      "pulbiber",
+      "kimyon",
+      "tarcin",
+      "kekik"
+    ]
+  },
+  "yasak": {
+    "makarna": [
+      "marul",
+      "cilek",
+      "muz"
+    ],
+    "pizza": [
+      "marul",
+      "cilek",
+      "muz"
+    ],
+    "burger": [
+      "cilek",
+      "muz",
+      "midye"
+    ],
+    "pilav": [
+      "marul",
+      "cilek",
+      "muz"
+    ],
+    "corba": [
+      "cilek",
+      "muz",
+      "yufka"
+    ],
+    "et": [
+      "muz",
+      "hamsi",
+      "midye",
+      "kalamar"
+    ],
+    "tavuk": [
+      "cilek",
+      "muz",
+      "hamsi",
+      "midye",
+      "kalamar"
+    ],
+    "kahvalti": [
+      "ciger",
+      "midye",
+      "kalamar",
+      "kakao"
+    ],
+    "tatli": [
+      "patlican",
+      "salatalik",
+      "marul",
+      "bezelye",
+      "biftek",
+      "ciger",
+      "sucuk",
+      "balik",
+      "hamsi",
+      "somon",
+      "karides",
+      "midye",
+      "kalamar",
+      "bulgur",
+      "mercimek",
+      "salca",
+      "pulbiber",
+      "kimyon",
+      "kekik"
+    ],
+    "ekmek": [],
+    "patates": [
+      "cilek",
+      "muz"
+    ]
+  },
+  "yemek_ozel": [
+    {
+      "yemek": "tavuklu_barbeku_pizza",
+      "uyumlu_ek": [
+        "bal"
+      ],
+      "yasak_ek": []
+    },
+    {
+      "yemek": "isvec_koftesi",
+      "uyumlu_ek": [
+        "cilek"
+      ],
+      "yasak_ek": []
+    },
+    {
+      "yemek": "tavuklu_quesadilla_stili",
+      "uyumlu_ek": [
+        "fasulye"
+      ],
+      "yasak_ek": []
+    },
+    {
+      "yemek": "acili_napoliten_makarna",
+      "uyumlu_ek": [
+        "kimyon"
+      ],
+      "yasak_ek": []
+    },
+    {
+      "yemek": "truffle_stil_mantarli_makarna",
+      "uyumlu_ek": [],
+      "yasak_ek": [
+        "sucuk"
+      ]
+    }
+  ],
+  "gurme_ekstralar": [
+    {
+      "yemek": "kizarmis_patates_cubuk",
+      "ekstralar": [
+        "karabiber",
+        "pulbiber",
+        "kekik"
+      ]
+    },
+    {
+      "yemek": "haslanmis_tavuk",
+      "ekstralar": [
+        "karabiber",
+        "kekik",
+        "nane"
+      ]
+    },
+    {
+      "yemek": "cirpilmis_yumurta",
+      "ekstralar": [
+        "sucuk",
+        "karabiber",
+        "kekik"
+      ]
+    },
+    {
+      "yemek": "sade_ekmek",
+      "ekstralar": [
+        "irmik",
+        "bal",
+        "kekik"
+      ]
+    },
+    {
+      "yemek": "pismis_kofte",
+      "ekstralar": [
+        "kimyon",
+        "karabiber",
+        "pulbiber"
+      ]
+    },
+    {
+      "yemek": "pilav",
+      "ekstralar": [
+        "nohut",
+        "karabiber",
+        "tarcin"
+      ]
+    },
+    {
+      "yemek": "omlet",
+      "ekstralar": [
+        "sucuk",
+        "kekik",
+        "karabiber"
+      ]
+    },
+    {
+      "yemek": "tavuk_sote",
+      "ekstralar": [
+        "kekik",
+        "karabiber",
+        "bal"
+      ]
+    },
+    {
+      "yemek": "citir_patates",
+      "ekstralar": [
+        "pulbiber",
+        "kekik",
+        "karabiber"
+      ]
+    },
+    {
+      "yemek": "sebzeli_pirinc",
+      "ekstralar": [
+        "bezelye",
+        "nohut",
+        "karabiber"
+      ]
+    },
+    {
+      "yemek": "peynirli_ekmek_dilimi",
+      "ekstralar": [
+        "kekik",
+        "bal",
+        "karabiber"
+      ]
+    },
+    {
+      "yemek": "kizarmis_tavuk_parcalari",
+      "ekstralar": [
+        "irmik",
+        "pulbiber",
+        "kekik"
+      ]
+    },
+    {
+      "yemek": "mantarli_makarna_bazi",
+      "ekstralar": [
+        "karabiber",
+        "kekik",
+        "nane"
+      ]
+    },
+    {
+      "yemek": "domatesli_makarna_bazi",
+      "ekstralar": [
+        "salca",
+        "kekik",
+        "pulbiber"
+      ]
+    },
+    {
+      "yemek": "menemen_harci",
+      "ekstralar": [
+        "sucuk",
+        "karabiber",
+        "pulbiber"
+      ]
+    },
+    {
+      "yemek": "kremali_patates_puresi",
+      "ekstralar": [
+        "karabiber",
+        "kekik",
+        "nane"
+      ]
+    },
+    {
+      "yemek": "tavuklu_pilav_tabani",
+      "ekstralar": [
+        "nohut",
+        "karabiber",
+        "kimyon"
+      ]
+    },
+    {
+      "yemek": "gurme_klasik_burger",
+      "ekstralar": [
+        "salatalik",
+        "marul",
+        "sucuk"
+      ]
+    },
+    {
+      "yemek": "kremali_mantarli_makarna",
+      "ekstralar": [
+        "karabiber",
+        "kekik",
+        "bezelye"
+      ]
+    },
+    {
+      "yemek": "lazanya",
+      "ekstralar": [
+        "salca",
+        "kekik",
+        "karabiber"
+      ]
+    },
+    {
+      "yemek": "firin_makarna",
+      "ekstralar": [
+        "sucuk",
+        "karabiber",
+        "kekik"
+      ]
+    },
+    {
+      "yemek": "spagetti_bolonez",
+      "ekstralar": [
+        "salca",
+        "kekik",
+        "karabiber"
+      ]
+    },
+    {
+      "yemek": "truffle_stil_mantarli_makarna",
+      "ekstralar": [
+        "karabiber",
+        "kekik",
+        "patlican"
+      ]
+    },
+    {
+      "yemek": "acili_napoliten_makarna",
+      "ekstralar": [
+        "pulbiber",
+        "kekik",
+        "kimyon"
+      ]
+    },
+    {
+      "yemek": "klasik_margarita_pizza",
+      "ekstralar": [
+        "salca",
+        "kekik",
+        "patlican"
+      ]
+    },
+    {
+      "yemek": "karmasik_gurme_pizza",
+      "ekstralar": [
+        "sucuk",
+        "biftek",
+        "karabiber"
+      ]
+    },
+    {
+      "yemek": "tavuklu_barbeku_pizza",
+      "ekstralar": [
+        "bal",
+        "kekik",
+        "pulbiber"
+      ]
+    },
+    {
+      "yemek": "kremali_tavuklu_makarna",
+      "ekstralar": [
+        "karabiber",
+        "kekik",
+        "bezelye"
+      ]
+    },
+    {
+      "yemek": "isvec_koftesi",
+      "ekstralar": [
+        "cilek",
+        "karabiber",
+        "kekik"
+      ]
+    },
+    {
+      "yemek": "saray_pilavi",
+      "ekstralar": [
+        "ciger",
+        "tarcin",
+        "karabiber"
+      ]
+    },
+    {
+      "yemek": "sebzeli_gurme_pilav",
+      "ekstralar": [
+        "bezelye",
+        "nohut",
+        "kekik"
+      ]
+    },
+    {
+      "yemek": "kremali_mantar_corbasi",
+      "ekstralar": [
+        "karabiber",
+        "kekik",
+        "nane"
+      ]
+    },
+    {
+      "yemek": "saray_domates_corbasi",
+      "ekstralar": [
+        "salca",
+        "nane",
+        "karabiber"
+      ]
+    },
+    {
+      "yemek": "sehriyeli_tavuk_corbasi",
+      "ekstralar": [
+        "nane",
+        "karabiber",
+        "kekik"
+      ]
+    },
+    {
+      "yemek": "zengin_sebze_corbasi",
+      "ekstralar": [
+        "mercimek",
+        "nohut",
+        "nane"
+      ]
+    },
+    {
+      "yemek": "fransiz_koy_guveci",
+      "ekstralar": [
+        "patlican",
+        "karabiber",
+        "kekik"
+      ]
+    },
+    {
+      "yemek": "acili_kofte_tabagi",
+      "ekstralar": [
+        "pulbiber",
+        "kimyon",
+        "kekik"
+      ]
+    },
+    {
+      "yemek": "tavuk_sote_menusu",
+      "ekstralar": [
+        "karabiber",
+        "kekik",
+        "nohut"
+      ]
+    },
+    {
+      "yemek": "citir_tavuk_sepeti",
+      "ekstralar": [
+        "pulbiber",
+        "kekik",
+        "karabiber"
+      ]
+    },
+    {
+      "yemek": "kremali_tavuk_gogsu",
+      "ekstralar": [
+        "karabiber",
+        "kekik",
+        "bezelye"
+      ]
+    },
+    {
+      "yemek": "turk_kahvaltisi_omleti",
+      "ekstralar": [
+        "sucuk",
+        "salatalik",
+        "karabiber"
+      ]
+    },
+    {
+      "yemek": "koy_kahvaltisi_menemeni",
+      "ekstralar": [
+        "sucuk",
+        "pulbiber",
+        "kekik"
+      ]
+    },
+    {
+      "yemek": "sicak_peynirli_bruschetta",
+      "ekstralar": [
+        "salca",
+        "kekik",
+        "karabiber"
+      ]
+    },
+    {
+      "yemek": "kiymali_borek_dilimi",
+      "ekstralar": [
+        "yufka",
+        "kimyon",
+        "pulbiber"
+      ]
+    },
+    {
+      "yemek": "patatesli_tavuk_gratini",
+      "ekstralar": [
+        "karabiber",
+        "kekik",
+        "bezelye"
+      ]
+    },
+    {
+      "yemek": "karamelli_cikolatali_pasta",
+      "ekstralar": [
+        "cilek",
+        "muz",
+        "tarcin"
+      ]
+    },
+    {
+      "yemek": "limonlu_gurme_tart",
+      "ekstralar": [
+        "cilek",
+        "nane",
+        "bal"
+      ]
+    },
+    {
+      "yemek": "cikolatali_volkan_keki",
+      "ekstralar": [
+        "cilek",
+        "karabiber",
+        "tarcin"
+      ]
+    },
+    {
+      "yemek": "karamelli_trilece",
+      "ekstralar": [
+        "bal",
+        "tarcin",
+        "muz"
+      ]
+    },
+    {
+      "yemek": "limonlu_kadayif_stili_kek",
+      "ekstralar": [
+        "irmik",
+        "portakal",
+        "tarcin"
+      ]
+    },
+    {
+      "yemek": "karamelli_muhallebi",
+      "ekstralar": [
+        "tarcin",
+        "bal",
+        "muz"
+      ]
+    },
+    {
+      "yemek": "orman_meyvesiz_tatli_kulesi",
+      "ekstralar": [
+        "cilek",
+        "muz",
+        "nane"
+      ]
+    },
+    {
+      "yemek": "peynirli_sarimsakli_ekmek",
+      "ekstralar": [
+        "kekik",
+        "pulbiber",
+        "nane"
+      ]
+    },
+    {
+      "yemek": "kremali_sebze_sote",
+      "ekstralar": [
+        "nohut",
+        "mercimek",
+        "nane"
+      ]
+    },
+    {
+      "yemek": "citir_patatesli_burger",
+      "ekstralar": [
+        "marul",
+        "salatalik",
+        "sucuk"
+      ]
+    },
+    {
+      "yemek": "tavuklu_quesadilla_stili",
+      "ekstralar": [
+        "fasulye",
+        "kimyon",
+        "pulbiber"
+      ]
+    },
+    {
+      "yemek": "mantarli_kofte_guvec",
+      "ekstralar": [
+        "patlican",
+        "kekik",
+        "karabiber"
+      ]
+    },
+    {
+      "yemek": "patates_pureli_kofte",
+      "ekstralar": [
+        "kimyon",
+        "karabiber",
+        "kekik"
+      ]
+    },
+    {
+      "yemek": "biberli_domatesli_omlet",
+      "ekstralar": [
+        "sucuk",
+        "pulbiber",
+        "kekik"
+      ]
+    },
+    {
+      "yemek": "kremali_peynirli_makarna",
+      "ekstralar": [
+        "karabiber",
+        "kekik",
+        "irmik"
+      ]
+    },
+    {
+      "yemek": "cikolatali_krema_kup",
+      "ekstralar": [
+        "cilek",
+        "muz",
+        "tarcin"
+      ]
+    },
+    {
+      "yemek": "limonlu_parfe",
+      "ekstralar": [
+        "nane",
+        "cilek",
+        "bal"
+      ]
+    },
+    {
+      "yemek": "gurme_et_tabagi",
+      "ekstralar": [
+        "biftek",
+        "karides",
+        "kekik"
+      ]
+    },
+    {
+      "yemek": "citir_tavuklu_makarna",
+      "ekstralar": [
+        "pulbiber",
+        "kekik",
+        "karabiber"
+      ]
+    },
+    {
+      "yemek": "dolu_dolu_kahvalti_tabagi",
+      "ekstralar": [
+        "sucuk",
+        "salatalik",
+        "bal"
+      ]
+    },
+    {
+      "yemek": "sarimsakli_tavuklu_pilav",
+      "ekstralar": [
+        "nohut",
+        "karabiber",
+        "kekik"
+      ]
+    },
+    {
+      "yemek": "sefin_ozel_karmasik_tatlisi",
+      "ekstralar": [
+        "cilek",
+        "muz",
+        "tarcin"
+      ]
+    }
+  ],
+  "onerilen_yeni_malzemeler": [
+    {
+      "id": "ceviz",
+      "ad": "Ceviz",
+      "emoji": "🌰",
+      "maliyet": 4,
+      "kutu": "kiler",
+      "uyumlu_kategoriler": [
+        "tatli",
+        "ekmek",
+        "kahvalti"
+      ],
+      "yasak_kategoriler": [],
+      "ikame": {
+        "gerekli": "kakao",
+        "kapsam": "tatli",
+        "carpan": 0.7,
+        "etiket": "zayif"
+      }
+    },
+    {
+      "id": "peynir",
+      "ad": "Peynir",
+      "emoji": "🧀",
+      "maliyet": 5,
+      "kutu": "buzdolabi",
+      "uyumlu_kategoriler": [
+        "makarna",
+        "pizza",
+        "burger",
+        "kahvalti",
+        "ekmek",
+        "patates"
+      ],
+      "yasak_kategoriler": [],
+      "ikame": {
+        "gerekli": "sut",
+        "kapsam": "tuzlu",
+        "carpan": 1.15,
+        "etiket": "premium"
+      }
+    },
+    {
+      "id": "krema",
+      "ad": "Krema",
+      "emoji": "🥛",
+      "maliyet": 5,
+      "kutu": "buzdolabi",
+      "uyumlu_kategoriler": [
+        "makarna",
+        "corba",
+        "tavuk",
+        "tatli",
+        "patates"
+      ],
+      "yasak_kategoriler": [],
+      "ikame": {
+        "gerekli": "sut",
+        "kapsam": "*",
+        "carpan": 1.15,
+        "etiket": "premium"
+      }
+    },
+    {
+      "id": "maydanoz",
+      "ad": "Maydanoz",
+      "emoji": "🌿",
+      "maliyet": 2,
+      "kutu": "sebze",
+      "uyumlu_kategoriler": [
+        "makarna",
+        "pizza",
+        "burger",
+        "pilav",
+        "corba",
+        "et",
+        "tavuk",
+        "kahvalti",
+        "ekmek",
+        "patates"
+      ],
+      "yasak_kategoriler": [
+        "tatli"
+      ],
+      "ikame": {
+        "gerekli": "biber",
+        "kapsam": "tuzlu",
+        "carpan": 0.5,
+        "etiket": "zayif"
+      }
+    },
+    {
+      "id": "dereotu",
+      "ad": "Dereotu",
+      "emoji": "🌿",
+      "maliyet": 2,
+      "kutu": "sebze",
+      "uyumlu_kategoriler": [
+        "pilav",
+        "corba",
+        "tavuk",
+        "kahvalti",
+        "ekmek",
+        "patates"
+      ],
+      "yasak_kategoriler": [
+        "tatli"
+      ],
+      "ikame": {
+        "gerekli": "biber",
+        "kapsam": "corba",
+        "carpan": 0.5,
+        "etiket": "zayif"
+      }
+    },
+    {
+      "id": "feslegen",
+      "ad": "Fesleğen",
+      "emoji": "🌿",
+      "maliyet": 3,
+      "kutu": "sebze",
+      "uyumlu_kategoriler": [
+        "makarna",
+        "pizza",
+        "burger",
+        "corba",
+        "tavuk",
+        "ekmek",
+        "patates"
+      ],
+      "yasak_kategoriler": [],
+      "ikame": {
+        "gerekli": "sarimsak",
+        "kapsam": "tuzlu",
+        "carpan": 0.7,
+        "etiket": "zayif"
+      }
+    },
+    {
+      "id": "sirke",
+      "ad": "Sirke",
+      "emoji": "🍶",
+      "maliyet": 2,
+      "kutu": "kiler",
+      "uyumlu_kategoriler": [
+        "makarna",
+        "pizza",
+        "burger",
+        "pilav",
+        "corba",
+        "et",
+        "tavuk",
+        "kahvalti",
+        "ekmek",
+        "patates"
+      ],
+      "yasak_kategoriler": [
+        "tatli"
+      ],
+      "ikame": {
+        "gerekli": "limon",
+        "kapsam": "tuzlu",
+        "carpan": 1,
+        "etiket": "esdeger"
+      }
+    },
+    {
+      "id": "vanilya",
+      "ad": "Vanilya",
+      "emoji": "🌼",
+      "maliyet": 4,
+      "kutu": "baharat",
+      "uyumlu_kategoriler": [
+        "tatli",
+        "kahvalti",
+        "ekmek"
+      ],
+      "yasak_kategoriler": [
+        "corba",
+        "et",
+        "tavuk"
+      ],
+      "ikame": {
+        "gerekli": "kakao",
+        "kapsam": "tatli",
+        "carpan": 0.7,
+        "etiket": "zayif"
+      }
+    },
+    {
+      "id": "ekmek_kirintisi",
+      "ad": "Ekmek Kırıntısı",
+      "emoji": "🍞",
+      "maliyet": 2,
+      "kutu": "kiler",
+      "uyumlu_kategoriler": [
+        "burger",
+        "et",
+        "tavuk",
+        "patates"
+      ],
+      "yasak_kategoriler": [],
+      "ikame": {
+        "gerekli": "un",
+        "kapsam": "et",
+        "carpan": 1,
+        "etiket": "esdeger"
+      }
+    },
+    {
+      "id": "tavuk_suyu",
+      "ad": "Tavuk Suyu",
+      "emoji": "🍲",
+      "maliyet": 4,
+      "kutu": "buzdolabi",
+      "uyumlu_kategoriler": [
+        "makarna",
+        "pilav",
+        "corba",
+        "tavuk"
+      ],
+      "yasak_kategoriler": [
+        "tatli"
+      ],
+      "ikame": {
+        "gerekli": "su",
+        "kapsam": "tuzlu",
+        "carpan": 1.15,
+        "etiket": "premium"
+      }
+    },
+    {
+      "id": "zencefil",
+      "ad": "Zencefil",
+      "emoji": "🫚",
+      "maliyet": 3,
+      "kutu": "baharat",
+      "uyumlu_kategoriler": [
+        "pilav",
+        "corba",
+        "et",
+        "tavuk",
+        "kahvalti",
+        "tatli"
+      ],
+      "yasak_kategoriler": [],
+      "ikame": {
+        "gerekli": "sarimsak",
+        "kapsam": "tavuk",
+        "carpan": 0.7,
+        "etiket": "zayif"
+      }
+    },
+    {
+      "id": "muskat",
+      "ad": "Muskat",
+      "emoji": "🟤",
+      "maliyet": 4,
+      "kutu": "baharat",
+      "uyumlu_kategoriler": [
+        "makarna",
+        "corba",
+        "et",
+        "tavuk",
+        "patates"
+      ],
+      "yasak_kategoriler": [],
+      "ikame": {
+        "gerekli": "biber",
+        "kapsam": "corba",
+        "carpan": 0.7,
+        "etiket": "zayif"
+      }
+    },
+    {
+      "id": "yogurt",
+      "ad": "Yoğurt",
+      "emoji": "🥣",
+      "maliyet": 4,
+      "kutu": "buzdolabi",
+      "uyumlu_kategoriler": [
+        "makarna",
+        "burger",
+        "pilav",
+        "corba",
+        "et",
+        "tavuk",
+        "kahvalti",
+        "tatli",
+        "ekmek",
+        "patates"
+      ],
+      "yasak_kategoriler": [],
+      "ikame": {
+        "gerekli": "sut",
+        "kapsam": "*",
+        "carpan": 1,
+        "etiket": "esdeger"
+      }
+    },
+    {
+      "id": "pekmez",
+      "ad": "Pekmez",
+      "emoji": "🍯",
+      "maliyet": 4,
+      "kutu": "kiler",
+      "uyumlu_kategoriler": [
+        "et",
+        "tavuk",
+        "kahvalti",
+        "tatli",
+        "ekmek"
+      ],
+      "yasak_kategoriler": [],
+      "ikame": {
+        "gerekli": "seker",
+        "kapsam": "tatli",
+        "carpan": 1.1,
+        "etiket": "premium"
+      }
+    }
+  ]
+}
